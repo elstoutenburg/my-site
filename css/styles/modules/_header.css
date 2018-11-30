@@ -1,0 +1,9 @@
+.container {
+  &--header-image {
+    width: 75%;
+
+    @mixin atMedium {
+      width: 512px;
+    }
+  }
+}

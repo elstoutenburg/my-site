@@ -349,6 +349,59 @@ template {
   display: none;
 }
 
+body {
+  margin: 0;
+  text-align: center;
+  font-family: Roboto;
+}
+
+h3 {
+  color: #11999e;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.container {
+  text-align: center;
+  position: relative;
+  background-color: #4a4e4d;
+  padding-top: 100px;
+  margin: 0;
+}
+
+.container h1 {
+    margin: 50px auto 0 auto;
+    font-family: "Homemade Apple", serif;
+    font-size: 2.75rem;
+    color: #3da4ab;
+  }
+
+@media (min-width: 800px) {
+
+.container h1 {
+      font-size: 5.625rem
+  }
+  }
+
+.container h2 {
+    color: #f6cd61;
+    font-size: 1.65rem;
+    font-family: "Roboto", serif;
+    font-weight: 100;
+  }
+
+@media (min-width: 800px) {
+
+.container h2 {
+      font-size: 2.5rem
+  }
+  }
+
 .container--header-image {
     width: 75%;
   }
@@ -359,3 +412,7 @@ template {
       width: 512px
   }
   }
+
+.footer-link {
+  text-decoration: none;
+}
